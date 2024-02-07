@@ -1,8 +1,8 @@
-## Detection and quantitative analysis of patient-ventilator interactions in ventilated infants by convolutional neural networks
+## Detection and quantitative analysis of patient-ventilator interactions in ventilated infants by deep learning networks
 
 Authors : David Chong (chongdtwdavid94@gmail.com), Gusztav Belteki (gbelteki@icloud.com)
 
-This is the accompanying code repository for the titular publication. The trained models can be found in the model_dev/model_checkpoints folder.
+This is the accompanying code repository for the [titular publication](https://www.nature.com/articles/s41390-024-03064-z). The trained models can be found in the model_dev/model_checkpoints folder.
 
 To load and use the models you can use the example pipeline under [model_dev/asynchrony_classification_pipeline.py](https://github.com/chongtwd/Detection-and-quantitative-analysis-of-patient-ventilator-interactions-in-ventilated-neonates/blob/main/model_dev/asynchrony_classification_pipeline.py) as a starting point. The training and checkpoints depend on the following libraries in addition to other ones which you most likely already have installed.
 
